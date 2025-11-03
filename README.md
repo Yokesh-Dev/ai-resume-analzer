@@ -158,6 +158,3 @@ Special thanks to:
 * **Puter.ai** for their AI API integration
 * **TailwindCSS** for the beautiful and efficient design system
 * **pdfjs-dist** for robust PDF parsing
-
-That would make it even more professional for a public GitHub repository.
-```
