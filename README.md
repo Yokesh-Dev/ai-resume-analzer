@@ -3,6 +3,8 @@
 An intelligent **AI-powered resume analysis web app** built with **React, Tailwind CSS, and Vite**.  
 This app allows users to **upload their resume in PDF format** and receive an **instant, AI-driven evaluation** — scoring content quality, formatting, keyword usage, and ATS (Applicant Tracking System) compatibility.  
 
+  <img width="1894" height="889" alt="image" src="https://github.com/user-attachments/assets/5344ddf9-a8c0-45ca-91c7-5622641e3db0" />
+
 ---
 
 ## 🚀 Features
