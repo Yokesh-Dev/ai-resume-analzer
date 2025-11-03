@@ -1,4 +1,3 @@
-```markdown
 # 🧠 AI Resume Analyzer
 
 An intelligent **AI-powered resume analysis web app** built with **React, Tailwind CSS, and Vite**.  
@@ -19,13 +18,13 @@ This app allows users to **upload their resume in PDF format** and receive an **
 
 ## 🛠️ Tech Stack
 
-| Category       | Technologies                                              |
-| -------------- | --------------------------------------------------------- |
-| Frontend       | React 19, Vite                                            |
-| Styling        | Tailwind CSS                                              |
+| Category | Technologies |
+|-----------|---------------|
+| Frontend | React 19, Vite |
+| Styling | Tailwind CSS |
 | AI Integration | [Puter.ai](https://puter.com) API (for chat and analysis) |
-| PDF Parsing    | pdfjs-dist                                                |
-| Linting        | ESLint                                                    |
+| PDF Parsing | pdfjs-dist |
+| Linting | ESLint |
 
 ---
 
@@ -43,7 +42,7 @@ ai_resume_starter_code/
 ├── package.json
 └── tailwind.config.js
 
-```
+````
 
 ---
 
@@ -54,7 +53,7 @@ ai_resume_starter_code/
 ```bash
 git clone https://github.com/yourusername/ai-resume-analyzer.git
 cd ai-resume-analyzer
-```
+````
 
 ### 2️⃣ Install Dependencies
 
@@ -79,19 +78,19 @@ Then open your browser and navigate to **[http://localhost:5173](http://localhos
 3. The resume is analyzed through **Puter.ai’s GPT model**.
 4. You’ll see a detailed breakdown including:
 
-   - Overall score
-   - Strengths and improvements
-   - Action items & professional tips
-   - ATS optimization checklist
-   - Recommended keywords
+   * Overall score
+   * Strengths and improvements
+   * Action items & professional tips
+   * ATS optimization checklist
+   * Recommended keywords
 
 ---
 
 ## 🧠 How It Works
 
-- The core prompt logic is defined in **`constants.js`** (`ANALYZE_RESUME_PROMPT`).
-- Once a PDF is uploaded, text is extracted, and the AI model is queried.
-- The JSON response is parsed and rendered into user-friendly dashboards.
+* The core prompt logic is defined in **`constants.js`** (`ANALYZE_RESUME_PROMPT`).
+* Once a PDF is uploaded, text is extracted, and the AI model is queried.
+* The JSON response is parsed and rendered into user-friendly dashboards.
 
 ---
 
@@ -99,10 +98,10 @@ Then open your browser and navigate to **[http://localhost:5173](http://localhos
 
 All UI components are styled with **Tailwind CSS**, including:
 
-- Gradient backgrounds
-- Status color coding (excellent / good / needs improvement)
-- Responsive cards and progress bars
-- Interactive hover and transition effects
+* Gradient backgrounds
+* Status color coding (excellent / good / needs improvement)
+* Responsive cards and progress bars
+* Interactive hover and transition effects
 
 ---
 
@@ -111,16 +110,8 @@ All UI components are styled with **Tailwind CSS**, including:
 ```json
 {
   "overallScore": "8/10",
-  "strengths": [
-    "Strong formatting",
-    "Relevant skills section",
-    "Quantified achievements"
-  ],
-  "improvements": [
-    "Add more industry keywords",
-    "Simplify layout for ATS",
-    "Expand education details"
-  ],
+  "strengths": ["Strong formatting", "Relevant skills section", "Quantified achievements"],
+  "improvements": ["Add more industry keywords", "Simplify layout for ATS", "Expand education details"],
   "keywords": ["React", "JavaScript", "Node.js"],
   "summary": "A well-structured and concise resume with strong technical focus.",
   "performanceMetrics": {
@@ -137,9 +128,9 @@ All UI components are styled with **Tailwind CSS**, including:
 
 ## 🧑‍💻 Developer Notes
 
-- Uses **Puter.ai’s `window.puter.ai.chat`** for GPT-powered responses.
-- The default model is `gpt-5-nano`, but this can be replaced with other models.
-- PDF extraction is handled asynchronously via `pdfjs-dist`.
+* Uses **Puter.ai’s `window.puter.ai.chat`** for GPT-powered responses.
+* The default model is `gpt-5-nano`, but this can be replaced with other models.
+* PDF extraction is handled asynchronously via `pdfjs-dist`.
 
 ---
 
@@ -164,15 +155,9 @@ Feel free to use, modify, and distribute it.
 
 Special thanks to:
 
-- **Puter.ai** for their AI API integration
-- **TailwindCSS** for the beautiful and efficient design system
-- **pdfjs-dist** for robust PDF parsing
+* **Puter.ai** for their AI API integration
+* **TailwindCSS** for the beautiful and efficient design system
+* **pdfjs-dist** for robust PDF parsing
 
----
-
-```
-
----
-
-
+That would make it even more professional for a public GitHub repository.
 ```
